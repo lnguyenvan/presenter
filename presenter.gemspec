@@ -9,7 +9,7 @@ Gem::Specification.new do |spec|
   spec.authors       = ["Giang Thai Cuong"]
   spec.email         = ["thaicuong.giang@gmail.com"]
 
-  spec.summary       = "Simple view presenters for your application."
+  spec.summary       = "Simple view presenters for your Rails application."
   spec.homepage      = "https://github.com/rubyanh/presenter"
   spec.license       = "MIT"
 
