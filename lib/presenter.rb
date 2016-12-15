@@ -1,5 +1,7 @@
 require "rails"
 require "presenter/version"
+require "presenter/base"
+require "presenter/null"
 
 module Presenter
   module Presentable
@@ -12,14 +14,5 @@ module Presenter
 
       presenter_class.new(self)
     end
-  end
-
-  class BasePresenter
-    def initialize(model)
-      @model = model
-    end
-  end
-
-  class NullPresenter < BasePresenter
   end
 end
