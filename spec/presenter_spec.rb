@@ -1,10 +1,6 @@
 require "spec_helper"
 
 describe Presenter do
-  it "has a version number" do
-    expect(Presenter::VERSION).not_to be nil
-  end
-
   it "can use a presenter" do
     presenter = Foo.new.presenter
 
