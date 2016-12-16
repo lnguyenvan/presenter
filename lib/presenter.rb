@@ -1,5 +1,4 @@
 require "rails"
-require "presenter/version"
 
 module Presenter
   autoload :Presentable,    'presenter/presentable'
